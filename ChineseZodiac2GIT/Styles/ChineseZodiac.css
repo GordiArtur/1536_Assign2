@@ -4,8 +4,8 @@ html {
 }
 
 body {
-  width:1024px;
-  height: 768px;
+  max-width:1024px;
+  min-height: 768px;
   background-color: #FFF;
   margin: 0 auto;
 }
@@ -52,8 +52,8 @@ td {
 }
 
 #text img {
-    width:100px;
-    height: 100px;
+    max-width:100px;
+    max-height: 100px;
 }
 
 #footer ul {
@@ -61,14 +61,14 @@ td {
 }
 
 #menu {
-    width: 1024px;
+    max-width: 1024px;
     height: 30px;
     text-align: center;
     padding-top: 20px;
 }
 
 #maincontent {
-    width: 1024px;
+    max-width: 1024px;
     background-color: rgb(235, 235, 235);
     border-radius: 10px;
     text-align: center;
@@ -87,7 +87,7 @@ td {
 
 #submit {
     margin-left: -120px;
-    width: 300px;
+    max-width: 300px;
 }
 
 #footer {
@@ -102,7 +102,7 @@ td {
 }
 
 #text {
-    width:800px;
+    max-width:800px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
@@ -132,14 +132,14 @@ td {
 }
 
 .image {
-    width:150px;
-    height: 150px;
-    margin:25px;
+    max-width:150px;
+    max-height: 150px;
+    max-margin:25px;
 }
 
 .banner{
-    width:392px;
-    height: 245px;
+    max-width:392px;
+    max-height: 245px;
 }
 
 .names {
