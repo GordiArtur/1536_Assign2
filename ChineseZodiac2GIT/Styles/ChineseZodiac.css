@@ -17,6 +17,7 @@ hr {
     height: 3px;
 }
 
+
 form {
     width: 600px;
     padding: 10px;
@@ -32,16 +33,38 @@ label {
     margin-top: 10px;
 }
 
-input {
-    margin-top: 10px;
-    width: 300px;
+@media only screen and (max-width: 768px) {
+	input {
+		
+		margin-top: 10px;
+		width: 100px;
+	}
 }
 
-textarea {
-    width: 300px;
-    height: 100px;
-    margin-top: 10px;
+@media only screen and (min-width: 767px) {
+	input {
+		
+		margin-top: 10px;
+		width: 300px;
+	}
 }
+
+@media only screen and (max-width: 768px) {
+	textarea {
+		width: 100px;
+		height: 100px;
+		margin-top: 10px;
+	}
+}
+
+@media only screen and (min-width: 767px) {
+	textarea {
+		width: 300px;
+		height: 100px;
+		margin-top: 10px;
+	}
+}
+
 
 li a {
     color: brown;
@@ -67,6 +90,7 @@ td {
     padding-top: 20px;
 }
 
+
 #maincontent {
     max-width: 1024px;
     background-color: rgb(235, 235, 235);
@@ -75,6 +99,7 @@ td {
     margin-top: 10px;
     color: rgb(0, 141, 153);
 }
+
 
 #zodiacimage {
     margin-top: 10px;
@@ -85,9 +110,18 @@ td {
     border-radius: 10px;
 }
 
-#submit {
-    margin-left: -120px;
-    max-width: 300px;
+@media only screen and (max-width: 768px) {
+	#submit {
+		margin-left: -400px;
+		max-width: 100px;
+	}
+}
+
+@media only screen and (min-width: 767px) {
+	#submit {
+		margin-left: -120px;
+		max-width: 300px;
+	}
 }
 
 #footer {
@@ -110,10 +144,21 @@ td {
 
 }
 
-#contactform {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+@media only screen and (min-width: 767px) {
+	#contactform {
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	#contactform {
+	text-align: center;
+	margin-left: -50px;
+	margin-right: auto;
+	margin-top: 100px;
+	}
 }
 
 .hover:hover {
@@ -148,6 +193,14 @@ td {
     text-align: center;
 }
 
-.top {
-    margin-left: 150px;
+@media only screen and (min-width: 767px) {
+	.top {
+		margin-left: 150px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.top {
+		margin-left: 70px;
+	}
 }
