@@ -110,7 +110,7 @@ main {
 
 		margin-top: 10px;
 		width: 300px;
-		
+
 	}
 }
 
@@ -209,6 +209,17 @@ td {
 	margin-left: -50px;
 	margin-right: auto;
 	margin-top: 100px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	#contactform {
+    margin-left:10%;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	#contactform {
 	}
 }
 
