@@ -1,18 +1,17 @@
 /* add details here if needed */
 
 —ARTUR 
-	-changed some width from px to % to fit 
-	-fixed bootstrap css declaration
-	-disabled zoom on mobile devices
-	-banner hidden on mobile devices to save space
+	-fixed footer
+	-fixed sm 12signs formatting
+	-added footer; main; header HTML5 semantic tags
 
 -CONRAD
-	-
+	-contact us
 	-
 	-
 
 -TODO
 	-add to other pages
-	-
-	-
+	-submit button
+	-fix footer border radius
 	-
