@@ -23,7 +23,7 @@ hr {
 
 @media only screen and (max-width: 768px) {
 	form {
-		width: 275px;  //* was 600 */
+		width: 275px;
 		padding: 10px;
 
 	}
