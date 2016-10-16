@@ -21,20 +21,48 @@ hr {
     height: 3px;
 }
 
+@media only screen and (max-width: 768px) {
+	form {
+		width: 275px;  //* was 600 */
+		padding: 10px;
 
-form {
-    width: 600px;
-    padding: 10px;
+	}
 }
 
-label {
-    float: left;
-    clear: left;
-    display: block;
-    width: 150px;
-    text-align: right;
-    padding-right: 10px;
-    margin-top: 10px;
+@media only screen and (min-width: 767px) {
+	form {
+		width:600px;
+		padding: 10px;
+	}
+}
+
+
+
+@media only screen and (min-width: 767px) {
+	label {
+		float: left;
+		clear: left;
+		display: block;
+		width: 150px;
+		text-align: right;
+		padding-right: 10px;
+		margin-top: 10px;
+
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	label {
+		float: left;
+		clear: left;
+		display: block;
+		width: 150px;
+		text-align: right;
+		padding-right: 10px;
+		margin-top: 10px;
+		font-size:12px;
+		margin-left:-17px;
+	}
 }
 
 @media only screen and (max-width: 768px) {
@@ -42,6 +70,7 @@ label {
 		
 		margin-top: 10px;
 		width: 100px;
+		margin-left:-10px;
 	}
 }
 
@@ -50,6 +79,7 @@ label {
 		
 		margin-top: 10px;
 		width: 300px;
+		
 	}
 }
 
@@ -66,6 +96,7 @@ label {
 		width: 100px;
 		height: 100px;
 		margin-top: 10px;
+		margin-left: -10px;
 	}
 }
 
@@ -126,7 +157,7 @@ td {
 
 @media only screen and (max-width: 768px) {
 	#submit {
-		margin-left: -400px;
+		margin-left: -115px;
 		max-width: 200px;
 		height: 75px;
 	}
