@@ -45,6 +45,14 @@ label {
 	}
 }
 
+@media only screen and (max-width: 768px) {
+	input.submit {
+		
+		margin-top: 10px;
+		width: 300px;
+	}
+}
+
 @media only screen and (min-width: 767px) {
 	input {
 		
@@ -119,7 +127,8 @@ td {
 @media only screen and (max-width: 768px) {
 	#submit {
 		margin-left: -400px;
-		max-width: 100px;
+		max-width: 200px;
+		height: 75px;
 	}
 }
 
