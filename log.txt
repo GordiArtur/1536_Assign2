@@ -1,7 +1,7 @@
 /* add details here if needed */
 
 —ARTUR 
-	-fixed footer; fixed sm 12signs formatting; added footer; main; header HTML5 semantic tags; changed declaration to HTML5. 
+	-fixed footer; fixed sm 12signs formatting; added footer; main; header HTML5 semantic tags; changed declaration to HTML5; all 14 html pages are now mobile friendly. TO DO: VALIDATE ALL HTML AND CSS 
 	
 
 -CONRAD
