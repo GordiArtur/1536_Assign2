@@ -1,17 +1,19 @@
 /* add details here if needed */
 
 —ARTUR 
-	-fixed footer
-	-fixed sm 12signs formatting
-	-added footer; main; header HTML5 semantic tags
+	-fixed footer; fixed sm 12signs formatting; added footer; main; header HTML5 semantic tags; changed declaration to HTML5. 
+	
 
 -CONRAD
 	-contact us
-	-
+	-submit button resize 
 	-
 
 -TODO
 	-add to other pages
-	-submit button
 	-fix footer border radius
+	-
+
+-PAGES DONE NEED VALIDATION
+	-contactus
 	-
